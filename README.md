@@ -1,90 +1,61 @@
-# KEYKIE - Handcrafted Crochet Keychain & Aesthetic Charms 🧶✨
+KEYKIE — Handcrafted Crochet Keychain & Aesthetic Charms
 
-Website toko online e-commerce modern untuk brand rajutan gantungan kunci (crochet keychain) **KEYKIE** dengan sistem pembayaran utama menggunakan **QRIS (Quick Response Code Indonesian Standard)**.
+Selamat datang di KEYKIE, toko online aksesori rajut handmade yang menghadirkan gantungan kunci crochet lucu, unik, dan estetik. Setiap produk dibuat untuk menambahkan sentuhan personal pada tas, kunci, maupun hadiah spesial untuk orang tersayang.
 
----
+✨ Tentang KEYKIE
 
-## 🌟 Fitur Utama
+KEYKIE adalah website toko online yang dirancang untuk memberikan pengalaman belanja produk crochet handmade dengan tampilan yang sederhana, menarik, dan mudah digunakan.
 
-### 1. 7 Menu Navigasi Lengkap
-1. **Home**:
-   - Hero banner estetik dengan slogan "Dirajut Penuh Cinta".
-   - Keunggulan produk (100% Benang Katun Susu 5-ply, jahitan rapi, gantungan anti-karat, packing kado).
-   - Produk Best Seller & koleksi terpopuler.
-   - Review & testimoni pelanggan nyata.
-2. **Katalog**:
-   - Menampilkan koleksi gantungan rajut lengkap (Bunga & Tanaman, Karakter Hewan, Buah & Makanan, Custom Inisial & Nama).
-   - Fitur pencarian kata kunci (*live search*).
-   - Filter kategori produk.
-   - Pengurutan harga (terendah, tertinggi) dan rating/popularitas.
-   - Modal detail produk: pilih warna varian, request inisial huruf, pengatur jumlah (qty), deskripsi bahan & ukuran.
-3. **Keranjang**:
-   - Daftar item belanja dengan foto, nama, warna varian, dan custom inisial.
-   - Stepper penambah/pengurang jumlah (+/-) & tombol hapus item.
-   - Input voucher diskon (Kupon siap pakai: `KEYKIEBARU`, `GRATISONGKIR`, `RAJUTLUCU`).
-   - Rincian kalkulasi belanja otomatis.
-4. **Pembayaran**:
-   - Form data pengiriman (Nama, No WhatsApp, Alamat lengkap, Kota, Kode Pos, Catatan kado).
-   - Pilihan ekspedisi kurir (J&T Express, SiCepat, AnterAja, JNE, Instant Kurir).
-   - Metode pembayaran utama: **QRIS Real-Time**.
-   - Generate kode unik 3 digit acak untuk verifikasi transfer presisi.
-5. **Pesanan Saya**:
-   - Daftar riwayat pesanan yang tersimpan di `localStorage`.
-   - Filter status tab (*Semua*, *Menunggu Pembayaran*, *Diproses (Dirajut)*, *Dikirim*, *Selesai*).
-   - Tombol **Bayar QRIS Sekarang** (jika status belum bayar).
-   - Tombol **Lacak Status** dengan timeline stepper progres pengerjaan rajut.
-   - Tombol **Invoice / Cetak** (faktur resmi yang rapi dan siap diprint/disimpan sebagai PDF).
-   - Tombol cepat **Hubungi Admin via WhatsApp** dengan template pesan otomatis berisi ID pesanan.
-6. **About**:
-   - Kisah perjalanan brand KEYKIE dan filosofi rajut handmade.
-   - 3 pilar mutu: Benang Katun Susu, Presisi Rajut, Siap Jadi Hadiah.
-   - Panduan cara mencuci dan merawat gantungan rajut agar awet.
-7. **Contact Us**:
-   - Info kontak resmi (WhatsApp, Instagram `@keykie.crochet`, Email, Alamat Studio di Bandung).
-   - Form pesan interaktif dengan opsi kirim langsung ke WhatsApp.
-   - Accordion FAQ (Pertanyaan yang sering diajukan).
+Website ini dibuat menggunakan HTML, CSS, dan JavaScript serta dapat dipublikasikan secara gratis melalui GitHub Pages.
 
----
+🌷 Fitur Website
 
-## 💳 Fitur Pembayaran QRIS Interaktif
+🏠 Beranda — halaman utama untuk memperkenalkan KEYKIE.
 
-- **Desain Kartu Standar Nasional**: Tampilan kartu QRIS otentik sesuai standar ASPI & Bank Indonesia (Header merah QRIS + GPN, nama merchant `KEYKIE CROCHET OFFICIAL`, NMID resmi).
-- **Dynamic QR Code**: QR code tajam dengan logo rajutan di tengah.
-- **Countdown Timer**: Penghitung mundur 15 menit batas waktu pembayaran.
-- **Simulasi Cek Otomatis**: Tombol *"Saya Sudah Bayar (Cek Otomatis)"* dengan loading verifikasi mutasi dan pembaruan status pesanan langsung ke *Diproses (Dirajut)*.
-- **Upload Bukti Transfer**: Fasilitas simulasi unggah bukti transfer / screenshot pembayaran dari galeri.
-- **Salin Nominal Cepat**: Tombol 1-klik untuk menyalin nominal total transfer hingga digit unik.
+🛍️ Katalog Produk — melihat koleksi gantungan kunci crochet.
 
----
+🔎 Pencarian Produk — mencari produk berdasarkan kata kunci.
 
-## 🚀 Cara Menjalankan Website
+🧸 Detail Produk — melihat informasi produk sebelum membeli.
 
-Website ini dibuat dengan **HTML5, Tailwind CSS, Lucide/Phosphor Icons, dan Vanilla JavaScript murni**, sehingga:
-- **Tanpa perlu install Node.js / npm / compiler tambahan**.
-- Cukup buka file `index.html` langsung di browser favoritmu (Google Chrome, Microsoft Edge, Mozilla Firefox, dll).
+🛒 Keranjang Belanja — menambah, mengurangi, dan menghapus produk.
 
-### Langkah Menjalankan:
-1. Buka folder proyek:
-   `C:\Users\ACER\.gemini\antigravity\scratch\keykie-crochet`
-2. Klik ganda (double-click) pada file **`index.html`**.
-3. Website akan langsung terbuka dan siap digunakan secara penuh!
+🎟️ Voucher Diskon — menggunakan kode promo yang tersedia.
 
-> 💡 **Rekomendasi Workspace**:
-> Atur direktori `C:\Users\ACER\.gemini\antigravity\scratch\keykie-crochet` sebagai **active workspace** di Antigravity agar kamu dapat dengan mudah mengelola seluruh file proyek.
+💳 Checkout — mengisi informasi pemesanan dan pengiriman.
 
----
+📦 Riwayat Pesanan — melihat pesanan yang tersimpan pada perangkat.
 
-## 📂 Struktur File
+🧾 Invoice — melihat dan mencetak rincian pesanan.
 
-```text
-keykie-crochet/
-├── index.html          # Halaman utama dengan 7 menu view & modal
-├── README.md           # Dokumentasi lengkap proyek
+📱 Informasi Pembayaran QRIS — menampilkan instruksi pembayaran.
+
+💬 Kontak WhatsApp — menghubungi penjual untuk komunikasi lebih lanjut.
+
+❓ FAQ — membaca jawaban atas pertanyaan umum.
+
+📱 Tampilan Responsif — mendukung tampilan desktop dan perangkat seluler.
+
+🛠️ Teknologi
+
+HTML5 — struktur halaman website.
+
+CSS3 — desain dan tata letak.
+
+JavaScript — interaksi dan fungsi website.
+
+LocalStorage — menyimpan keranjang dan riwayat pesanan di browser.
+
+GitHub Pages — hosting website statis.
+
+📁 Struktur Folder
+
+KEYKIE-GitHub-Ready/
+├── index.html
 ├── css/
-│   └── style.css       # Styling estetik pastel, tema rajut & QRIS
+│   └── style.css
 ├── js/
-│   ├── data.js         # Data katalog produk, kurir, FAQ, voucher
-│   ├── storage.js      # Pengelolaan cart & orders di LocalStorage
-│   └── app.js          # Router navigasi, event handler, timer QRIS
-└── assets/             # Direktori asset & gambar
-```
+│   ├── app.js
+│   ├── data.js
+│   └── storage.js
+└── README.md
